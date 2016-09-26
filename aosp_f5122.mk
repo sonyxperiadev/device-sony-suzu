@@ -15,6 +15,12 @@
 # Inherit from those products. Most specific first.
 $(call inherit-product, device/sony/suzu/aosp_f5122.mk)
 
+# DualSim
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.multisim.config=dsds \
+    persist.radio.multisim.config=dsds \
+    ro.telephony.default_network=9,1
+
 PRODUCT_NAME := aosp_f5122
 PRODUCT_DEVICE := suzu
 PRODUCT_MODEL := Xperia X Dual (AOSP)
