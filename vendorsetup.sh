@@ -15,3 +15,4 @@
 #
 
 add_lunch_combo aosp_f5121-userdebug
+add_lunch_combo aosp_f5122-userdebug
