@@ -12,6 +12,11 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-PRODUCT_MAKEFILES := $(LOCAL_DIR)/aosp_f5121.mk \
-                     $(LOCAL_DIR)/aosp_f5122.mk
+# Inherit from those products. Most specific first.
+$(call inherit-product, device/sony/suzu/aosp_f5122.mk)
 
+PRODUCT_NAME := aosp_f5122
+PRODUCT_DEVICE := suzu
+PRODUCT_MODEL := Xperia X Dual (AOSP)
+PRODUCT_BRAND := Sony
+PRODUCT_MANUFACTURER := Sony
