@@ -13,7 +13,7 @@
 # limitations under the License.
 
 # Inherit from those products. Most specific first.
-$(call inherit-product, device/sony/suzu/aosp_f5122.mk)
+$(call inherit-product, device/sony/suzu/aosp_f5121.mk)
 
 # DualSim
 PRODUCT_PROPERTY_OVERRIDES += \
