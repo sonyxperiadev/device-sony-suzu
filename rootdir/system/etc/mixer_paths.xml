@@ -2564,9 +2564,10 @@
     </path>
 
     <path name="camcorder-mic">
-        <path name="camcorder-mic-common" />
-        <ctl name="DEC8 Volume" value="101" />
-        <ctl name="DEC7 Volume" value="83" />
+        <path name="handset-mic" />
+        <ctl name="SLIM_0_TX Format" value="S16_LE" />
+        <ctl name="DEC8 Volume" value="125" />
+        <ctl name="DEC7 Volume" value="107" />
     </path>
 
     <path name="camcorder-mic-gain-low">
