@@ -84,3 +84,6 @@ $(call inherit-product, vendor/sony/loire-suzu/suzu-vendor.mk)
 
 # copy wlan firmware
 $(call inherit-product-if-exists, vendor/broadcom/wlan/bcmdhd/firmware/bcm43455/device-bcm.mk)
+
+# include optional vendor configuration
+$(call inherit-product-if-exists, vendor/qcom/proprietary/common/build/qcom-packages.mk)
