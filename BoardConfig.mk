@@ -18,4 +18,9 @@ TARGET_BOOTLOADER_BOARD_NAME := F5121
 
 BOARD_KERNEL_CMDLINE += androidboot.hardware=suzu
 
+# Recovery config
+BOARD_SONY_INIT_FLAGS += -DDEV_BLOCK_FOTA_NUM="42"
+BOARD_SONY_INIT_FLAGS += -DDEV_BLOCK_FOTA_MAJOR="259"
+BOARD_SONY_INIT_FLAGS += -DDEV_BLOCK_FOTA_MINOR="10"
+
 #TARGET_TAP_TO_WAKE_NODE := "/sys/devices/virtual/input/clearpad/wakeup_gesture"
