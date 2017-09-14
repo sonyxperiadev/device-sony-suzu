@@ -16,6 +16,9 @@ include device/sony/loire/PlatformConfig.mk
 
 TARGET_BOOTLOADER_BOARD_NAME := F5121
 
+# Platform
+PRODUCT_PLATFORM := loire
+
 BOARD_KERNEL_CMDLINE += androidboot.hardware=suzu
 
 #TARGET_TAP_TO_WAKE_NODE := "/sys/devices/virtual/input/clearpad/wakeup_gesture"
