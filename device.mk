@@ -55,8 +55,8 @@ PRODUCT_COPY_FILES += \
 
 # NFC Configuration
 PRODUCT_COPY_FILES += \
-    $(DEVICE_PATH)/rootdir/system/etc/libnfc-brcm.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-brcm.conf \
-    $(DEVICE_PATH)/rootdir/system/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf
+    $(DEVICE_PATH)/rootdir/vendor/etc/libnfc-brcm.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-brcm.conf \
+    $(DEVICE_PATH)/rootdir/vendor/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf
 
 # Device Init
 PRODUCT_PACKAGES += \
