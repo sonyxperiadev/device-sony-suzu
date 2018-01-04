@@ -67,6 +67,7 @@ PRODUCT_COPY_FILES += \
 
 # Device Init
 PRODUCT_PACKAGES += \
+    fstab.suzu \
     init.recovery.suzu \
     init.suzu \
     ueventd.suzu
