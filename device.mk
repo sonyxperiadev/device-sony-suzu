@@ -16,7 +16,7 @@
 DEVICE_PATH := device/sony/suzu/rootdir
 
 DEVICE_PACKAGE_OVERLAYS += \
-    $(DEVICE_PATH)/overlay
+    device/sony/suzu/overlay
 
 # Device Specific Permissions
 PRODUCT_COPY_FILES := \
