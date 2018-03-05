@@ -69,8 +69,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     fstab.suzu \
     init.recovery.suzu \
-    init.suzu \
-    ueventd.suzu
+    init.suzu
 
 # Lights
 PRODUCT_PACKAGES += \
