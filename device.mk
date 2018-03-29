@@ -71,10 +71,6 @@ PRODUCT_PACKAGES += \
     init.recovery.suzu \
     init.suzu
 
-# Lights
-PRODUCT_PACKAGES += \
-    lights.suzu
-
 # Simple PowerHAL
 PRODUCT_PACKAGES += \
     power.suzu
