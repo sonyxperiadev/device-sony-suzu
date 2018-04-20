@@ -2088,7 +2088,6 @@
     <path name="speaker-mic">
         <path name="dmic4" />
         <path name="dmic2-adj-gain" />
-        <ctl name="RX7 Digital Volume" value="0" />
     </path>
 
     <path name="stereo-mic-common">
@@ -2343,8 +2342,14 @@
     </path>
 
     <path name="voice-speaker">
-        <path name="speaker" />
-        <ctl name="RX7 Digital Volume" value="0" />
+        <ctl name="SLIM RX1 MUX" value="AIF_MIX1_PB" />
+        <ctl name="SLIM_0_RX Channels" value="One" />
+        <ctl name="RX INT8_1 MIX1 INP0" value="RX1" />
+        <ctl name="RX8 Digital Volume" value="92" />
+        <ctl name="SpkrRight COMP Switch" value="1" />
+        <ctl name="SpkrRight BOOST Switch" value="1" />
+        <ctl name="SpkrRight VISENSE Switch" value="1" />
+        <ctl name="SpkrRight SWR DAC_Port Switch" value="1" />
     </path>
 
     <path name="voice-speaker-mic">
