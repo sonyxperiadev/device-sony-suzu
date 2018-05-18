@@ -20,7 +20,8 @@ TARGET_BOOTLOADER_BOARD_NAME := F5121
 else ifneq (,$(filter %f5122,$(TARGET_PRODUCT)))
 TARGET_BOOTLOADER_BOARD_NAME := F5122
 else
-$(error Unrecognized value for TARGET_PRODUCT: "$(TARGET_PRODUCT)")
+TARGET_BOOTLOADER_BOARD_NAME := F5121
+$(warning Unrecognized value for TARGET_PRODUCT: "$(TARGET_PRODUCT)", using default value: "$(TARGET_BOOTLOADER_BOARD_NAME)")
 endif
 
 # Platform
