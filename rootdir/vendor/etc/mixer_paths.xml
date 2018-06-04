@@ -2715,8 +2715,7 @@
     </path>
 
     <path name="dmic-endfire">
-        <path name="handset-dmic-endfire" />
-        <ctl name="IIR0 INP0 MUX" value="DEC7" />
+        <path name="handset-mic" />
     </path>
 
     <path name="binaural-mic-disable">
@@ -2882,11 +2881,12 @@
     </path>
 
     <path name="voice-dmic-ef-tmus">
-        <path name="dmic-endfire" />
+        <path name="voice-dmic-ef" />
     </path>
 
     <path name="voice-dmic-ef">
-        <path name="dmic-endfire" />
+        <path name="handset-dmic-endfire" />
+        <ctl name="IIR0 INP0 MUX" value="DEC7" />
     </path>
 
     <path name="voice-speaker-dmic-ef">
@@ -2894,11 +2894,11 @@
     </path>
 
     <path name="voice-rec-dmic-ef">
-        <path name="dmic-endfire" />
+        <path name="voice-dmic-ef" />
     </path>
 
     <path name="voice-rec-dmic-ef-fluence">
-        <path name="dmic-endfire" />
+        <path name="voice-dmic-ef" />
     </path>
 
     <path name="voip-dmic-ef">
