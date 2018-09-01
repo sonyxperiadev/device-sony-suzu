@@ -75,10 +75,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     power.suzu
 
-# NFC config
-PRODUCT_PACKAGES += \
-    nfc_nci.suzu
-
 # Telephony Packages (AOSP)
 PRODUCT_PACKAGES += \
     InCallUI \
