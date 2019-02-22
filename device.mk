@@ -77,10 +77,6 @@ PRODUCT_PACKAGES += \
     init.recovery.suzu \
     init.suzu
 
-# Simple PowerHAL
-PRODUCT_PACKAGES += \
-    power.suzu
-
 # Telephony Packages (AOSP)
 PRODUCT_PACKAGES += \
     InCallUI \
